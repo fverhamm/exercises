@@ -1,0 +1,9 @@
+UNF 	DB[personel_id, Name, birth_date, lab_code, lab_name, (project_code, project_description, 		project_supervis)]
+1NF	DB(personel_id, name, birth_date)
+	R1(lab_code, lab_name)
+	R2(personel_id, project_code, project_description, project_supervis)
+2NF	DB(personel_id, name, birth_date)
+	R1(lab_code, lab_name)
+	R2(personel_id, project_code)
+	R3(project_code, project_description, project_supervis)
+3NF
