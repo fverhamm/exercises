@@ -1,0 +1,5 @@
+[guest@howest ~]$ mkdir exercises
+[guest@howest ~]$ cd exercises
+[guest@howest exercises]$ git init
+[guest@howest exercises]$ gedit exercise2.txt
+
